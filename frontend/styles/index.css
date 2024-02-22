@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffbd2;
+}
+
+.container {
+  max-width: 1200px; 
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+h2 {
+  display: block;
+}
+/* Button styles */
+#bulkAddButton,
+#downloadExcelButton,
+#all_users_button {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px; 
+  padding: 10px 20px;
+  background-color: #FFD700; 
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 200px; 
+}
+
+#all_users_button:hover,
+#bulkAddButton:hover,
+#downloadExcelButton:hover {
+  background-color: #DAA520; 
+}
+
+/* User card styles */
+.user-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+  gap: 20px;
+}
+
+.user-card {
+  background-color: #9BCF53; 
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.user-info {
+  margin-bottom: 10px;
+}
+
+
